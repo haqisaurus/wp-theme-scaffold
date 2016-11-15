@@ -8,7 +8,7 @@ class main_test extends WP_UnitTestCase {
     
 
     function test_Theme() {
-    	$this->assertTrue( 'Krafthaus Project Name' == wp_get_theme() );
+    	$this->assertTrue( 'WP Theme Scaffold' == wp_get_theme() );
 	}
 
 	function test_jquery_loaded() {

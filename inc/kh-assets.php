@@ -29,7 +29,7 @@ class KH_assets
 	} // end - load_style()
 
 	public function load_scripts() {
-        global $post;
+        // global $post;
 
 		// default variable js on frontend usefull
         $global_var = array(
@@ -37,7 +37,7 @@ class KH_assets
             'TEMPLATE_URL'   => get_template_directory_uri(),
             'STYLESHEET_URL' => get_stylesheet_directory_uri(),
             'AJAX_URL'       => admin_url('admin-ajax.php'),
-            'POST_ID'        => $post->ID,
+            // 'POST_ID'        => $post->ID,
             'IS_LOGGED_IN'   => is_user_logged_in()
         );
 
